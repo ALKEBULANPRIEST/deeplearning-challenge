@@ -23,13 +23,13 @@ This analysis will cover the details of the neural network model created for thi
   * STATUS - this column had over 34k 1's and only 5 0's - only five of the rows are zeroes which is not helpful. 
 #### Compiling, Training, and Evaluating the Model
 * The final model had three layers. The first layer had 100 neurons or nodes, the second layer had 30 neurons, and the third layer had 10 neurons. The model used two different activation functions - rectified linear units (relu) and sigmoid. See the image below for details of the model construction. 
+![Alt text](Starter_Code/images/compilation.png)
 
-![model definition and summary](C:\Users\uwagb\Downloads\deeplearning\Starter_Code\images\compilation.png "Model Definition and Summary")
 
 * The model exceeded the target performance of 75%. The model reached 79% accuracy - see the image below. 
 ![Alt text](Starter_Code/images/evaluation.png)
 
-![model evaluation](C:\Users\uwagb\Downloads\deeplearning\Starter_Code\images\evaluation.png "Model Evaluation")
+
 
 * I took the following steps to increase the model's performance:
   * Including the NAME column. There were a significant number of organization names that were repeated in the data. I thought there could be a connection betwen the organization and its success. 
